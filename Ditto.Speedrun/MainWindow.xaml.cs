@@ -68,7 +68,6 @@ namespace Ditto.Speedrun
         private void Cargar_Click(object sender, RoutedEventArgs e)
         {
             ChangeSave();
-            Content.Navigate("http://localhost:" +App.Server.Port.ToString());
         }
         /// <summary>
         /// Populate the Level ComboBox from the directories of DittoSaves
