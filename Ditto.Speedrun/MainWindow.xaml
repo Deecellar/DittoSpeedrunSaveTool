@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ditto.Speedrun"
         mc:Ignorable="d"
-        Title="MainWindow" Height="682" Width="800" ResizeMode="NoResize">
+        Title="MainWindow" Height="682" Width="800" ResizeMode="CanMinimize">
     <Grid>
         <WebBrowser  Name="Content" HorizontalAlignment="Left" Height="585" Width= "792" VerticalAlignment="Top"/>
         <ComboBox SelectionChanged="Level_SelectionChanged" Name="Level" HorizontalAlignment="Left" Margin="60,603,0,0" VerticalAlignment="Top" Width="190" Height="30"/>
